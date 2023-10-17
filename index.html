@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IOS Calculator</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="container grid-cols-4 bg-black h-screen flex justify-center items-center max-w-none">
+        <div class="calculator grid-cols-4 flex flex-col">
+            <div class="row flex justify-end text-end p-1">
+                <span id="result" class="bg-black text-white text-end text-8xl">0</span>
+            </div>
+            <div class="row flex justify-around p-2">
+                <button id="ac" class="rounded-full p-3 mr-2 gray-btn">AC</button>
+                <button id="convert" class="rounded-full p-3 mr-2 gray-btn">+/-</button>
+                <button id="percent" class="rounded-full p-3 mr-2 gray-btn">&#37;</button>
+                <button id="split" class="sign-btn rounded-full p-3 orange-btn">&#247;</button>
+            </div>
+            <div class="row flex justify-around p-2">
+                <button class="number-btn rounded-full p-3 mr-2 black-btn" value="7">7</button>
+                <button class="number-btn rounded-full p-3 mr-2 black-btn" value="8">8</button>
+                <button class="number-btn rounded-full p-3 mr-2 black-btn" value="9">9</button>
+                <button id="multiply" class="sign-btn rounded-full p-3 orange-btn">&#215;</button>
+            </div>
+            <div class="row flex justify-around p-2">
+                <button class="number-btn rounded-full p-3 mr-2 black-btn" value="4">4</button>
+                <button class="number-btn rounded-full p-3 mr-2 black-btn" value="5">5</button>
+                <button class="number-btn rounded-full p-3 mr-2 black-btn" value="6">6</button>
+                <button id="substract" class="sign-btn rounded-full p-3 orange-btn">&#8722;</button>
+            </div>
+            <div class="row flex justify-around p-2">
+                <button class="number-btn rounded-full p-3 mr-2 black-btn" value="1">1</button>
+                <button class="number-btn rounded-full p-3 mr-2 black-btn" value="2">2</button>
+                <button class="number-btn rounded-full p-3 mr-2 black-btn" value="3">3</button>
+                <button id="add" class="sign-btn rounded-full p-3 orange-btn">&#43;</button>
+            </div>
+            <div class="row flex justify-around p-2">
+                <button class="number-btn rounded-full p-3 mr-2 w-1/2 black-btn text-left" value="0">0</button>
+                <button id="decimal" class="rounded-full p-3 mr-2 black-btn">,</button>
+                <button id="equal" class="rounded-full p-3 orange-btn">&#61;</button>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

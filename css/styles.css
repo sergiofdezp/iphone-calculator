@@ -1,0 +1,52 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* Buttons options */
+
+button{
+    width: 75px;
+    font-size: 35px !important;
+}
+
+.gray-btn{
+    background-color: #a5a5a5;
+    border-color: #a5a5a5;
+    color: black;
+    font-weight: 500;
+}
+
+.gray-btn:hover{
+    background-color: #d3d3d3;
+    border-color: #d3d3d3;
+}
+
+.orange-btn{
+    background-color: #ff9f0a;
+    border-color: #ff9f0a;
+    color: white;
+    font-weight: 500;
+}
+
+.orange-btn:hover{
+    background-color: #ffc265;
+    border-color: #ffc265;
+}
+
+.orange-btn[selected] {
+    background-color: white;
+    border-color: white;
+    color: #ffc265;
+}
+
+.black-btn{
+    background-color: #333333;
+    border-color: #333333;
+    color: white;
+    font-weight: 500;
+}
+
+.black-btn:hover{
+    background-color: #696969;
+    border-color: #696969;
+}
